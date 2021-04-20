@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Schedule</title>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="schedule.js"></script>
+
+</head>
+<body>
+    <h1>My Schedule</h1>
+
+    <form id="week">
+        <input type="radio" id="monday" name="day" value="monday">
+        <label for="monday">Monday</label>
+        <br>
+
+        <input type="radio" id="tuesday" name="day" value="tuesday">
+        <label for="tuesday">Tuesday</label>
+        <br>
+
+        <input type="radio" id="wednesday" name="day" value="wednesday">
+        <label for="wednesday">Wednesday</label>
+        <br>
+
+        <input type="radio" id="thursday" name="day" value="thursday">
+        <label for="thursday">Thursday</label>
+        <br>
+
+        <input type="radio" id="friday" name="day" value="friday">
+        <label for="friday">Friday</label>
+        <br>
+
+        <input type="radio" id="saturday" name="day" value="saturday">
+        <label for="saturday">Saturday</label>
+        <br>
+
+        <input type="radio" id="sunday" name="day" value="sunday">
+        <label for="sunday">Sunday</label>
+        <br><br>
+
+        <table style="width: 25%">
+            <tr>
+                <th>Event</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td id="eventOutput"></td>
+                <td id="timeOutput"></td>
+            </tr>
+            <tr>
+                <td id="eventOutput2"></td>
+                <td id="timeOutput2"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
